@@ -11,7 +11,7 @@ export default function MovieList(props) {
 }
 
 function MovieDetails(props) {
-  const { title, director, metascore } = props.movie;
+  const { title, director, metascore } = props.movies;
 
   return (
     <div className="movie-card">
